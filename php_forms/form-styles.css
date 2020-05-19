@@ -1,0 +1,99 @@
+
+/* Free guide form styles */
+
+#formGuideContainer {
+  background-color: #3e85cf;
+  padding: 25px;
+  max-width: 400px;
+  min-height: 140px;
+  margin-bottom: 10%;
+  margin-top: -10%;
+  position: relative;
+  z-index: 10;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.field input {
+  padding: 5px;
+  max-width: 250px;
+}
+
+.fieldSubmit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label {
+  color: #ccc;
+}
+
+.submit {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: #ff8f00;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+
+/* Contact us form styles */
+
+/* body {
+  padding: 100px 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.contact-form {
+  min-width: 600px;
+}
+
+.contact-field {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio input,
+label {
+  margin-bottom: 10px;
+}
+
+.radio,
+.select {
+  width: 27%;
+}
+
+input {
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+label {
+  color: #ccc;
+}
+
+.submit {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: #ff8f00;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
